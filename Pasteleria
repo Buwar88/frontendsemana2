@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELIZIOSO</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(202, 166, 88);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(202, 166, 88);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgba(201, 156, 73, 0.473);
+        }
+        footer {
+            background-color: rgb(14, 13, 13);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src=".\Crema Restaurante Logo.png" alt="Logo Pastelería" width="200px" height="100px">
+    <h1>¡BENVENUTO!</h1>
+
+    <!-- Parrafos -->
+    <p>Somos una pastelería tradicional italiana, conservando las formas de preparación trasnmitidas de generación en generación, con ese delicioso sabor a hogar.</p>
+
+    <p>En nuestro menú podrás encontrar los sabores y adornos que tenemos para puedas elegir y combinar los que más te gusten.</p>
+
+    <!-- Tablas -->
+
+    <h4>PASTELES</h4>
+    <table>
+        <tr>
+            <th>Sabor</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Chocolattiano </td>
+            <td>Clásico de chocolate semi-amargo</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Vanillatto </td>
+            <td>Hecho con vainas directamente traídas desde Italia</td>
+            <td>280</td>
+        </tr>
+        <tr>
+            <td>Fresigglia </td>
+            <td>Preparado con fresas orgánicas frescas</td>
+            <td>280</td>
+        </tr>
+        <tr>
+            <td>Tre latti </td>
+            <td>El clásico de 3 leches de la mas alta calidad</td>
+            <td>250</td>
+        </tr>
+    </table>
+
+    <!-- Listas -->
+    <h4>ADORNOS</h4>
+    <dl>
+        <dt>Letrero Chocolate------------------50</dt>
+        <dd>- Letrero hecho en chocolate semi-amargo</dd>
+        <dt>Corona Chantilly-------------------50</dt>
+        <dd>- Corona en el pastel hecha de Chantilly con crema de alta calidad y un toque de vainilla</dd>
+        <dt>Fondant------------------------------100</dt>
+        <dd>- Cubierta fondant blanca para todo el pastel</dd>
+        <dt>Rosas--------------------------------50</dt>
+        <dd>- 6 Rosas rojas y rosas comestibles</dd>
+
+    </dl>
+
+    <a href=".\Pedido.html">
+        <input type="button" value="Realizar Pedido">
+    </a><br><br>
+
+    <footer>
+        <p>Dirección: Avenida Siempre Viva #742 Springfield<br>Teléfono: 1234567890 - 0987654321<br>Correo: delizioso@pasteles.com<br>Horario de atención: Lunes a sabado de 10-19Hrs, Domingo 10 - 16Hrs</p>
+    </footer>
+
+</body>
+</html>
