@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDIDO</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(202, 166, 88);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(202, 166, 88);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgba(201, 156, 73, 0.473);
+        }
+        footer {
+            background-color: rgb(7, 7, 7);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img src=".\Crema Restaurante Logo.png" alt="Logo Pastelería" width="200px" height="100px">
+    <h3>Llena el formulario para procesar tu pedido</h3>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Teléfono" maxlength="10"><br><br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" placeholder="Dirección"><br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Correo"><br><br>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Descripción"><br><br>
+        <p>Selecciona el sabor o sabores</p>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Chocolattiano">
+        <label for="sabor1">Chocolattiano</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Vanillatto">
+        <label for="sabor2">Vanillatto</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Fresigglia">
+        <label for="sabor3">Fresigglia</label><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Tre latti">
+        <label for="sabor4">Tre latti</label><br><br>
+        <p>Selecciona tus adornos</p>
+        <input type="checkbox" id="ad1" name="ad1" value="Letrero">
+        <label for="ad1">Letrero Chocolate</label><br>
+        <input type="checkbox" id="ad2" name="ad2" value="Corona">
+        <label for="ad2">Corona Chantilly</label><br>
+        <input type="checkbox" id="ad3" name="ad3" value="Fondant">
+        <label for="ad3">Fondant</label><br>
+        <input type="checkbox" id="ad4" name="ad4" value="Rosas">
+        <label for="ad4">Rosas</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form><br>
+    <footer>
+        <p>Dirección: Avenida Siempre Viva #742 Springfield<br>Teléfono: 1234567890 - 0987654321<br>Correo: delizioso@pasteles.com<br>Horario de atención: Lunes a sabado de 10-19Hrs, Domingo 10 - 16Hrs</p>
+    </footer>
+
+</body>
+</html>
