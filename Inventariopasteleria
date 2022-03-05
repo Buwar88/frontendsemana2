@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVENTARIO</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(202, 166, 88);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(202, 166, 88);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgba(201, 156, 73, 0.473);
+        }
+        footer {
+            background-color: rgb(12, 12, 12);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Headings -->
+    <img src=".\Crema Restaurante Logo.png" alt="Logo Pastelería" width="200px" height="100px">
+    <h1>INVENTARIO</h1>
+    
+    <h3>Sabores Pastel</h3>
+    <table>
+        <tr>
+            <th>Sabor</th>
+            <th>Stock</th>
+            
+        </tr>
+        <tr>
+            <td>Chocolattiano </td>
+            <td>50</td>
+            
+        </tr>
+        <tr>
+            <td>Vanillatto </td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Fresigglia </td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Tre latti </td>
+            <td>50</td>
+        </tr>
+    </table>
+    <h3>Adornos</h3>
+    <table>
+        <tr>
+            <th>Adorno</th>
+            <th>Stock</th>
+            
+        </tr>
+        <tr>
+            <td>Letrero </td>
+            <td>50</td>
+            
+        </tr>
+        <tr>
+            <td>Corona </td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Fondant </td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Rosas </td>
+            <td>50</td>
+        </tr>
+    </table>
+
+    <h3>Ordenes</h3>
+
+    <table>
+        <tr>
+            <th>Pedido</th>
+            <th>Comanda</th>
+            
+        </tr>
+        <tr>
+            <td>1 </td>
+            <td>Chocolattiano, Vanillatto - Corona</td>
+            
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Tre latti - Rosas</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fressiglia - Fondant, Rosas</td>
+        </tr>
+    </table> <br><br>
+
+    <footer>
+        <p>Dirección: Avenida Siempre Viva #742 Springfield<br>Teléfono: 1234567890 - 0987654321<br>Correo: delizioso@pasteles.com<br>Horario de atención: Lunes a sabado de 10-19Hrs, Domingo 10 - 16Hrs</p>
+    </footer>
+
+</body>
+</html>
